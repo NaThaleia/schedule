@@ -1,5 +1,5 @@
 <div>
-  <form>
+  <form class='js-authorization'>
     <p>Авторизация</p>
     <label>Логин, телефон для уведомлений или E-mail
       <input type='text' name='user-name' />
@@ -7,8 +7,8 @@
     <label>Пароль
       <input type='password' name='password' />
     </label>
-    <input type='checkbox' id='agreement' name='agreement' required='' />
-    <label for='agreement' class='check-label'>Запомнить меня </label>
+    {{! <input type='checkbox' id='agreement' name='agreement' required='' /> }}
+    {{! <label for='agreement' class='check-label'>Запомнить меня </label> }}
     <button type='submit'>Войти</button>
     <a href=''>Восстановить пароль</a>
   </form>
